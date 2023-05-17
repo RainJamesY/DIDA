@@ -166,20 +166,6 @@ The checkpoints come with the training logs. Please note that:
   necessary to convert the mIoU to the 16 valid classes. Please, read the
   section above for converting the mIoU.
 
-## Framework Structure
-
-This project is based on [mmsegmentation version 0.16.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.16.0), the framework is partly based on [DAFormer](https://github.com/lhoyer/DAFormer).
-For more information about the framework structure and the config system,
-please refer to the [mmsegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/index.html), the [mmcv documentation](https://mmcv.readthedocs.ihttps://arxiv.org/abs/2007.08702o/en/v1.3.7/index.html). and DAFormer readme file.
-
-The most relevant files for DIDA are:
-
-* [mmseg/models/uda/dacs.py](mmseg/models/uda/dacs.py):
-  Implementation of UDA self-training, introduction of instance_loss, sampling strategies and dual-level interaction
-* [embedding_cache](embedding_cache):
-  Our pre-generated *instance bank*, with class-balanced distribution of instance features.
-* [create_buffer.py](create_buffer.py):
-  generate vacant placeholders and initiallize as unit random vectors
 
 ## Acknowledgements
 
