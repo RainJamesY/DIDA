@@ -146,18 +146,6 @@ sh test.sh path/to/checkpoint_directory
 
 * 训练记录提供的mIoU是针对19个类的. 对于 Synthia→Cityscapes 数据集的 mIoU 有必要将其转化为针对16个有效类的值。具体操作请您阅读前文提到的转换mIoU的小节。
 
-## 框架结构
-
-本项目基于 [mmsegmentation version 0.16.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.16.0), 而该项目部分程度上基于 [DAFormer](https://github.com/lhoyer/DAFormer)。
-更多有关框架结构和配置系统的信息请您查阅 [mmsegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/index.html),  [mmcv documentation](https://mmcv.readthedocs.ihttps://arxiv.org/abs/2007.08702o/en/v1.3.7/index.html)，以及DAFormer提供的readme文件.
-
-以下是与DIDA最相关的一些参考文件:
-
-* [mmseg/models/uda/dacs.py](mmseg/models/uda/dacs.py):
-  部署UDA自训练，引入了实例层面的损失，抽样策略和双层交互。
-* [embedding_cache](embedding_cache):
-  我们预生成的具有实例特征类平衡分布的**实例库**
-* [create_buffer.py](create_buffer.py):生成空占位符并初始化为单位随机向量
 
 ## 致谢
 
