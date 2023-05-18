@@ -169,7 +169,7 @@ The checkpoints come with the training logs. Please note that:
 
 ## Acknowledgements
 
-This project is based on the following open-source projects. We thank their
+This project is partly based on the following open-source projects. We thank their
 authors for making the source code publically available.
 
 * [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
