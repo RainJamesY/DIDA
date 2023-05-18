@@ -149,7 +149,7 @@ sh test.sh path/to/checkpoint_directory
 
 ## 致谢
 
-本项目参考了以下开源项目，我们由衷的感谢这些项目的作者公开了可用的源码。
+本项目部分参考了以下开源项目，我们由衷的感谢这些项目的作者公开了可用的源码。
 
 * [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
 * [SegFormer](https://github.com/NVlabs/SegFormer)
