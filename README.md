@@ -1,7 +1,7 @@
 ## DIDA: Dual-level Interaction for Domain Adaptive Semantic Segmentation
 
 ----------------------------------------------------------------------------------------------------
-This repository contains code and models for "DIDA: Dual-level Interaction for Domain Adaptive Semantic Segmentation" (accepted to ICCV Workshop on Uncertainty Quantification for Computer Vision (UnCV), 2023). [arXiv](https://arxiv.org/abs/2307.07972)
+This repository contains code and models for "[DIDA: Dual-level Interaction for Domain Adaptive Semantic Segmentation](https://openaccess.thecvf.com/content/ICCV2023W/UnCV/html/Yao_Dual-Level_Interaction_for_Domain_Adaptive_Semantic_Segmentation_ICCVW_2023_paper.html)" (accepted to ICCV Workshop on Uncertainty Quantification for Computer Vision (UnCV), 2023). [arXiv](https://arxiv.org/abs/2307.07972)
 
 Copyright (c) 2022-2023 WHU China, Dongyu Yao. All rights reserved. 
 
@@ -185,10 +185,12 @@ commercial matters.
 
 If you find our work helpful, please kindly cite us via the following bibtex:
 
-@inproceedings{yao2023dual,
-  title={Dual-level Interaction for Domain Adaptive Semantic Segmentation},
-  author={Yao, Dongyu and Li, Boheng},
-  booktitle={International Conference on Computer Vision Workshop on Uncertainty Quantification for Computer Vision},
-  year={2023}
+@InProceedings{Yao_2023_ICCV,
+    author    = {Yao, Dongyu and Li, Boheng},
+    title     = {Dual-Level Interaction for Domain Adaptive Semantic Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {4527-4536}
 }
 
